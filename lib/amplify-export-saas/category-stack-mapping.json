@@ -8,5 +8,10 @@
     "category": "function",
     "resourceName": "Function2",
     "service": "Lambda"
+  },
+  {
+    "category": "auth",
+    "resourceName": "saas960771c2",
+    "service": "Cognito"
   }
 ]
