@@ -1,0 +1,34 @@
+{
+  "stackName": "amplify-saas-dev-215632",
+  "props": {
+    "templateFile": "root-stack-template.json",
+    "parameters": {
+      "AuthRoleName": "amplify-saas-dev-215632-authRole",
+      "UnauthRoleName": "amplify-saas-dev-215632-unauthRole",
+      "DeploymentBucketName": "amplify-saas-dev-215632-deployment"
+    },
+    "preserveLogicalIds": true,
+    "loadNestedStacks": {
+      "functionFunction1": {
+        "templateFile": "function/Function1/Function1-cloudformation-template.json",
+        "parameters": {
+          "deploymentBucketName": "amplify-saas-dev-215632-deployment",
+          "s3Key": "amplify-builds/Function1-6d6c506d44534550764e-build.zip",
+          "env": "dev"
+        },
+        "preserveLogicalIds": true,
+        "loadNestedStacks": {}
+      },
+      "functionFunction2": {
+        "templateFile": "function/Function2/Function2-cloudformation-template.json",
+        "parameters": {
+          "deploymentBucketName": "amplify-saas-dev-215632-deployment",
+          "s3Key": "amplify-builds/Function2-68636951503063526746-build.zip",
+          "env": "dev"
+        },
+        "preserveLogicalIds": true,
+        "loadNestedStacks": {}
+      }
+    }
+  }
+}

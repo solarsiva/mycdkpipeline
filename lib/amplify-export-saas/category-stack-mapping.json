@@ -1,0 +1,12 @@
+[
+  {
+    "category": "function",
+    "resourceName": "Function1",
+    "service": "Lambda"
+  },
+  {
+    "category": "function",
+    "resourceName": "Function2",
+    "service": "Lambda"
+  }
+]
