@@ -30,6 +30,6 @@ import { AmplifyStage } from './stages/amplify-stage';
 
     // This is where we add the application stages
     pipeline.addStage(new AmplifyStage(this, "amplifyStage"))
-    pipeline.addStage(new OtherApiStage(this, "otherApiStage"))
+    //pipeline.addStage(new OtherApiStage(this, "otherApiStage"))
   }
 }
