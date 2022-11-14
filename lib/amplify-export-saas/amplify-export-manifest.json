@@ -78,6 +78,16 @@
         },
         "preserveLogicalIds": true,
         "loadNestedStacks": {}
+      },
+      "hostingamplifyhosting": {
+        "templateFile": "hosting/amplifyhosting/amplifyhosting-template.json",
+        "parameters": {
+          "appId": "d3411yikkpkkvs",
+          "type": "manual",
+          "env": "dev"
+        },
+        "preserveLogicalIds": true,
+        "loadNestedStacks": {}
       }
     }
   }

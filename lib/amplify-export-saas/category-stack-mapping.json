@@ -13,5 +13,10 @@
     "category": "auth",
     "resourceName": "saas960771c2",
     "service": "Cognito"
+  },
+  {
+    "category": "hosting",
+    "resourceName": "amplifyhosting",
+    "service": "amplifyhosting"
   }
 ]
